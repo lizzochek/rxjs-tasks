@@ -14,9 +14,6 @@ observable.subscribe({
   next(x) {
     console.log('Observable 1.2: value ' + x);
   },
-  error(err) {
-    console.error('Something is wrong in Observable 1.2: ' + err);
-  },
   complete() {
     console.log('Observable 1.2 done');
   },
